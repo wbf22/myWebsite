@@ -1,0 +1,108 @@
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/*
+* {
+    color: var(--fontColor);
+    font-family:fantasy;
+}
+*/
+
+.navBar{
+    font-size: 200%;
+    background-color: var(--btnBg);
+    padding: 6%;
+
+}
+
+.navBarButton{
+    color: var(--btnFontColor);
+    text-decoration: none;
+    padding: 0.5%;
+}
+  
+/*background var controlled by theme which is applied in html in "<body class="*/
+body {
+    background: var(--bg);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+
+/*
+.btn {
+    margin: 8%;
+    float: right;
+    top: 20px;
+    left: 300px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    
+}
+.btn:focus { outline-style: none; } 
+*/
+
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    font-size:400%;
+}
+
+.msg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+project{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    font-size: 200%;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+}
+
+.vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+}
+
+
+
+
+
+
+
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
